@@ -1,0 +1,73 @@
+# Panduan Kontribusi untuk Template Surat
+
+Terima kasih telah tertarik untuk berkontribusi dalam proyek **Template Surat**! Dengan kontribusi Anda, kita dapat meningkatkan dan mengembangkan fitur aplikasi ini agar lebih bermanfaat bagi pengguna.
+
+---
+
+## 🚀 Cara Berkontribusi
+
+### 1. **Fork Repository**
+Silakan klik tombol `Fork` di GitHub untuk membuat salinan repository ke akun Anda.
+
+### 2. **Clone Repository**
+Clone repository ke komputer lokal Anda menggunakan perintah berikut:
+```sh
+ git clone https://github.com/username/template_surat.git
+```
+Gantilah `username` dengan nama akun GitHub Anda.
+
+### 3. **Buat Branch Baru**
+Sebelum melakukan perubahan, buat branch baru agar tidak mengganggu branch utama.
+```sh
+ git checkout -b fitur-nama-fitur
+```
+Gunakan nama yang jelas untuk branch, misalnya `tambah-template-surat` atau `perbaikan-bug-validasi`.
+
+### 4. **Lakukan Perubahan**
+Lakukan perubahan yang diperlukan, baik itu menambah fitur baru, memperbaiki bug, atau meningkatkan dokumentasi.
+
+### 5. **Commit Perubahan**
+Setelah melakukan perubahan, commit dengan pesan yang jelas dan deskriptif.
+```sh
+ git add .
+ git commit -m "Menambahkan fitur [nama fitur]"
+```
+
+### 6. **Push ke Repository Fork Anda**
+Kirim perubahan ke repository fork Anda di GitHub.
+```sh
+ git push origin fitur-nama-fitur
+```
+
+### 7. **Buat Pull Request (PR)**
+- Kunjungi repository utama proyek di GitHub.
+- Klik `New Pull Request`.
+- Pilih branch yang telah Anda buat dan isi deskripsi mengenai perubahan yang dilakukan.
+- Tunggu review dari maintainer proyek.
+
+---
+
+## 📝 Standar Kode
+
+Untuk memastikan kualitas kode tetap terjaga, harap ikuti standar berikut:
+- Gunakan **PSR-12** untuk standar coding PHP.
+- Pastikan kode bebas dari error dan telah diuji sebelum mengajukan PR.
+- Gunakan format dan indentasi yang konsisten.
+- Tambahkan komentar yang jelas untuk bagian kode yang kompleks.
+
+---
+
+## ✅ Kontribusi yang Dibutuhkan
+
+Berikut adalah beberapa area yang dapat Anda bantu kembangkan:
+- **Penambahan Fitur Baru**: Template surat baru, fitur pencarian, fitur kategori surat.
+- **Perbaikan Bug**: Memperbaiki error dalam template atau validasi data.
+- **Peningkatan Dokumentasi**: Menambahkan dokumentasi yang lebih lengkap dan mudah dipahami.
+- **Optimasi Kode**: Meningkatkan efisiensi kode dalam aplikasi.
+
+Jika Anda menemukan masalah atau memiliki ide fitur baru, silakan buat **issue** terlebih dahulu di repository GitHub sebelum memulai pengembangan.
+
+---
+
+Terima kasih atas kontribusi Anda! Dengan bantuan Anda, proyek ini dapat terus berkembang dan bermanfaat bagi banyak orang. 🎉
+
